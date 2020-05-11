@@ -15,3 +15,9 @@ xrandr
 
 ###Save Here to Autostart:
 sudo nano /etc/X11/xorg.conf
+
+
+## FIREFOX YOUTUBE 
+We need to setting these keys to true in about:config, it's a must for firefox users who watch youtube. Restart firefox after. layers.acceleration.force-enabled 
+webgl.force-enabled 
+media.hardware-video-decoding.force-enabled 
