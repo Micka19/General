@@ -26,3 +26,6 @@ media.hardware-video-decoding.force-enabled
 sudo pacman-mirrors -f
 sudo pacman -Syyu
 
+## ARDUINO
+sudo chmod a+rw /dev/ttyACM0
+
