@@ -29,3 +29,10 @@ sudo pacman -Syyu
 ## ARDUINO
 sudo chmod a+rw /dev/ttyACM0
 
+## ARCH CLEAR CACHE
+sudo pacman -Rsn $(pacman -Qdtq)
+sudo pacman -Scc
+sudo rm /var/lib/systemd/coredump/. ---NAO TRABALHA
+sudo journalctl --vacuum-size=50M
+
+
