@@ -35,4 +35,15 @@ sudo pacman -Scc
 sudo rm /var/lib/systemd/coredump/. ---NAO TRABALHA
 sudo journalctl --vacuum-size=50M
 
+## MySQL
+https://medium.com/@shivraj.jadhav82/mysql-setup-on-linux-mint-948470115d5
+sudo apt-get remove --purge mysql*  
+sudo apt-get purge mysql*  
+sudo apt-get autoremove  
+sudo apt-get autoclean  
+sudo apt-get remove dbconfig-mysql
+
+
+
+
 
